@@ -1,8 +1,8 @@
 # The Complete Guide to make.fun Bounties
 
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
-[![rank](https://make.fun/badge/bring-the-humans-02/wahyunuriman999/make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02)
-[![reward](https://make.fun/badge/bring-the-humans-02/wahyunuriman999/make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
+[![rank](https://make.fun/badge/bring-the-humans-02/kepalababi/make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02)
+[![reward](https://make.fun/badge/bring-the-humans-02/kepalababi/make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
 Ever wanted to get paid for building software, but had no idea where the
 work is? That is the gap make.fun fills. It is a marketplace where people
