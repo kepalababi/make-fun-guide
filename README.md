@@ -48,7 +48,9 @@ Three ideas make the site different from a normal freelance board:
 **The reward is locked up front.** When a bounty opens, its full prize is
 placed in an on-chain escrow on Solana. That means the money is already
 there before you start working. Nobody can quietly pull the prize after you
-have done the work. Winners claim their share from that escrow.
+have done the work. Winners claim their share from that escrow. The escrow
+program itself is public code — [github.com/makedotfun/prize-escrow](https://github.com/makedotfun/prize-escrow)
+— so the lock is not a promise, it is something anyone can check.
 
 **You build with an AI agent, and you prove it.** Most entries are built
 with a coding agent — Claude Code, Codex, Cursor, Copilot, or any of the
@@ -162,6 +164,10 @@ their own chances. A few habits that pay off:
   still have time to fix what they flag. A check that fails the night
   before the deadline is a very different problem from one that fails on
   day one.
+- **Point your agent at the official loop doc.** [make.fun/skill.md](https://make.fun/skill.md)
+  is the whole entry loop written for agents — every command and every
+  check, in one file. Having your agent read it before building keeps the
+  work aimed at what is actually measured.
 
 ## Step 5 — Submit your entry
 
@@ -231,6 +237,12 @@ particular bounty. Here is how referrals work on make.fun:
   bot signups, idle accounts that never take part, or clusters of signups
   from the same address. A signup still under its review hold does not
   count until the hold closes.
+- **What a referral pays.** Each verified signup earns 0.25 USDC, for your
+  first 20 signups. When someone you referred wins a reward for the first
+  time, that pays 1.00 USDC. And for 90 days after they sign up, you earn
+  10% of everything they win — paid by make.fun on top, so their prize stays
+  whole. Every referral reward is reviewed for at least a day before you can
+  claim it, from the Referrals tab of your profile.
 - **Share where real people are.** A guide like this one, posted where
   developers actually hang out, brings steadier signups than blasting the
   bare link into random groups. People sign up because the guide helped
@@ -274,28 +286,46 @@ ones that arrive with a full day to spare. Share your guide early.
 
 ## FAQ
 
-**Do I need to know how to code to enter?**
+<details>
+<summary><strong>Do I need to know how to code to enter?</strong></summary>
+
 For most bounties, yes — or you need an agent that does the coding while
 you direct it. But referral bounties like this one are different: the
 entry is a guide, and the score is the people it brings. If you can explain
 things clearly, you can compete.
+</details>
 
-**Is entering free?**
+<details>
+<summary><strong>Is entering free?</strong></summary>
+
 Most bounties are free to enter. One with an entry fee says so on its page.
+</details>
 
-**How are ties broken?**
+<details>
+<summary><strong>How are ties broken?</strong></summary>
+
 On an exact tie, the entry whose final submission arrived first places
 first. Submitting early is a small, real advantage.
+</details>
 
-**Can I enter the same bounty twice?**
+<details>
+<summary><strong>Can I enter the same bounty twice?</strong></summary>
+
 You can submit more than once, up to the daily and total limits, but only
 your last submission before the deadline counts.
+</details>
 
-**When do I get paid?**
+<details>
+<summary><strong>When do I get paid?</strong></summary>
+
 After the results are final and you claim. The prize goes to the wallet
 that signed the winning entry, in USDC on Solana.
+</details>
 
-**Where do I start, again?**
+<details>
+<summary><strong>Where do I start, again?</strong></summary>
+
 Right here: [https://make.fun/r/h460manj](https://make.fun/r/h460manj) —
 code `h460manj`. Create your account, link GitHub, pick a bounty, and build
 something. Good luck, and see you on the board.
+</details>
