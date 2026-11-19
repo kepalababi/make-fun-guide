@@ -129,6 +129,7 @@ what gets an entry refused, and what the transcript checks look for.
 A typical kit download looks like this in a terminal:
 
 ```sh
+# fetch the kit for the bounty you picked, then unpack it in place
 curl -sSL "https://make.fun/c/<bounty-slug>/kit" | tar xz
 ```
 
@@ -178,8 +179,9 @@ submission, and the wallet that signs is the wallet a prize is claimed to.
 Later pushes to the repository do not change the entry — the commit you
 named is snapshotted at submission. If you improve the work afterwards,
 submit again with the new commit; your most recent submission before the
-deadline is the one that counts, within the daily and total submission
-limits.
+deadline is the one that counts. Submissions are limited — at most five
+per UTC day and ten in total for a bounty — so make each one count: run
+the local check first, and do not submit a commit you have not looked at.
 
 ## Step 6 — Get checked, fix problems, resubmit
 
@@ -241,6 +243,14 @@ For this bounty specifically, the leaderboard ranks entries by verified
 human signups through their link, and the top 50 entries share $1,000 in
 USDC. So the guide is not just an entry — it is the thing that does the
 bringing.
+
+One timing detail worth knowing: when the deadline passes, the final check
+runs at once. Each signup is decided only after its own 24-hour review
+hold has closed, and only the signups verified by the end of that final
+check — 30 hours after the deadline — make it into the result. A signup
+that is still undecided at that point simply does not count, so signups
+that arrive in the last hours before the deadline are worth less than
+ones that arrive with a full day to spare. Share your guide early.
 
 ## Mistakes that cost beginners money
 
